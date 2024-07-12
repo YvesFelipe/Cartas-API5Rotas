@@ -1,0 +1,25 @@
+[2024-06-30 18:24:08,355] INFO _log() L187  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.225:5000 - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-30 18:24:08,362] INFO _log() L187  [33mPress CTRL+C to quit[0m - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-30 18:24:08,366] INFO _log() L187   * Restarting with stat - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-30 18:24:12,695] INFO _log() L187  127.0.0.1 - - [30/Jun/2024 18:24:12] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-30 18:24:24,175] INFO _log() L187  127.0.0.1 - - [30/Jun/2024 18:24:24] "GET /buscacarta?nome_carta=Raio&nome_edicao=Jumpstart&qualidade=Praticamente%20Nova(NM)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-30 18:24:45,002] INFO _log() L187  127.0.0.1 - - [30/Jun/2024 18:24:45] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-30 18:24:58,829] INFO _log() L187  127.0.0.1 - - [30/Jun/2024 18:24:58] "GET /buscacarta?nome_carta=Raio&nome_edicao=Jumpstart&qualidade=Praticamente%20Nova(NM)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:53:32,470] INFO _log() L187  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.225:5000 - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:53:32,474] INFO _log() L187  [33mPress CTRL+C to quit[0m - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:53:32,479] INFO _log() L187   * Restarting with stat - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:53:35,060] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:53:35] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:53:58,115] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:53:58] "POST /adicionacarta HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:54:12,411] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:54:12] "OPTIONS /alteracarta?nome_carta=Ancestor's%20Chosen&nome_edicao=Alpha&qualidade=Nova(M)&idioma=Português&extra=Normal&quantidade_copia=6 HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:54:12,434] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:54:12] "PUT /alteracarta?nome_carta=Ancestor's%20Chosen&nome_edicao=Alpha&qualidade=Nova(M)&idioma=Português&extra=Normal&quantidade_copia=6 HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:54:30,784] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:54:30] "GET /buscacarta?nome_carta=Raio&nome_edicao=Jumpstart&qualidade=Praticamente%20Nova(NM)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:54:33,734] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:54:33] "OPTIONS /deletacarta?nome_carta=Raio&nome_edicao=Jumpstart&qualidade=Praticamente%20Nova(NM)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:54:33,752] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:54:33] "DELETE /deletacarta?nome_carta=Raio&nome_edicao=Jumpstart&qualidade=Praticamente%20Nova(NM)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:54:36,412] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:54:36] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-07-06 12:55:17,562] INFO _log() L187  127.0.0.1 - - [06/Jul/2024 12:55:17] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 

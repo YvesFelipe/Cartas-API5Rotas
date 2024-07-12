@@ -1,0 +1,65 @@
+[2023-09-11 09:38:20,920] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:38:20] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:40:26,070] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:40:26] "POST /adicionacarta HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:40:41,129] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:40:41] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:41:53,083] WARNING del_carta() L124  Erro ao deletar carta 'Cofre de Mana', Carta não encontrada na base :/ - call_trace=C:\qaninja\tau-intro-to-pytest\tests\PÓS\Carta_api\app.py L124 
+[2023-09-11 09:41:53,084] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:41:53] "[33mDELETE /deletacarta?nome_carta=Cofre%20de%20Mana&nome_edicao=Qaurta%20Edição&qualidade=Nova(M)&idioma=Português&extra=Normal HTTP/1.1[0m" 404 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:41:58,609] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:41:58] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:42:22,682] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:42:22] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:42:28,140] WARNING del_carta() L124  Erro ao deletar carta 'Cofre de Mana', Carta não encontrada na base :/ - call_trace=C:\qaninja\tau-intro-to-pytest\tests\PÓS\Carta_api\app.py L124 
+[2023-09-11 09:42:28,142] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:42:28] "[33mDELETE /deletacarta?nome_carta=Cofre%20de%20Mana&nome_edicao=Qaurta%20Edição&qualidade=Nova(M)&idioma=Português&extra=Normal HTTP/1.1[0m" 404 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:42:30,460] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:42:30] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:42:38,885] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:42:38] "DELETE /deletacarta?nome_carta=Cofre%20de%20Mana&nome_edicao=Quarta%20Edição&qualidade=Nova(M)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:42:42,023] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:42:42] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:46:04,689] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:46:04] "POST /adicionacarta HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:46:15,175] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:46:15] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:47:22,804] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:47:22] "DELETE /deletacarta?nome_carta=Cofre%20de%20Mana&nome_edicao=Quarta%20Edição&qualidade=Nova(M)&idioma=Português&extra=Normal HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:47:29,947] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:47:29] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:48:12,558] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:48:12] "POST /adicionacarta HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:48:15,701] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:48:15] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:48:33,588] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:48:33] "OPTIONS /deletacarta?nome_carta=Cascata&nome_edicao=Alpha&qualidade=Nova(M)&idioma=Japonês&extra=Foil HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:48:33,606] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:48:33] "DELETE /deletacarta?nome_carta=Cascata&nome_edicao=Alpha&qualidade=Nova(M)&idioma=Japonês&extra=Foil HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2023-09-11 09:48:35,743] INFO _log() L187  127.0.0.1 - - [11/Sep/2023 09:48:35] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:28,960] INFO _log() L187  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.225:5000 - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:28,965] INFO _log() L187  [33mPress CTRL+C to quit[0m - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:28,968] INFO _log() L187   * Restarting with stat - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:34,328] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:34] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:34,354] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:34] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:34,545] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:34] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:34,547] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:34] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:34,548] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:34] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:35,640] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:35] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:35,661] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:35] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:35,662] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:35] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:35,663] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:35] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:12:35,800] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:12:35] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:13:10,100] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:13:10] "GET /buscacartas HTTP/1.1" 200 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:13:31,277] ERROR log_exception() L1449 Exception on /buscacarta [GET] - call_trace=C:\Python310\lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python310\lib\site-packages\flask_openapi3\scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+  File "C:\Python310\lib\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "C:\qaninja\tau-intro-to-pytest\tests\PÓS\Carta_api\app.py", line 148, in get_carta
+    logger.debug(f"Cartas encontradas: '{carta.nome_carta}'")
+AttributeError: 'list' object has no attribute 'nome_carta'
+[2024-06-10 19:13:31,285] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:13:31] "[35m[1mGET /buscacarta?nome_carta=Raio HTTP/1.1[0m" 500 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:15:05,543] INFO _log() L187  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.225:5000 - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:15:05,545] INFO _log() L187  [33mPress CTRL+C to quit[0m - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:15:05,549] INFO _log() L187   * Restarting with stat - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
+[2024-06-10 19:15:11,237] INFO _log() L187  127.0.0.1 - - [10/Jun/2024 19:15:11] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Python310\lib\site-packages\werkzeug\_internal.py L187 
